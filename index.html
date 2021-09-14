@@ -11,8 +11,11 @@
 
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/carousel.css">
+ 
+ 
+<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
 <style type="text/css">
 
 /* ============ only desktop view ============ */
@@ -95,28 +98,75 @@
 	</div> <!-- container-fluid.// -->
 	</nav>
 </section>
-<section id="ImageScroll">
-	<div class="container py-5">
-		<div class="row">
-			<div class="col">
-				<h6>Demo for Navbar dropdown with hover animation effect. <br> Based on Bootstrap 5 CSS framework.  </h6>
-				<p>For this demo page you should connect to the internet to receive files from CDN  like Bootstrap5 CSS, Bootstrap5 JS</p>	
-			</div>
-			<div class="col">
-				<h6>Demo for Navbar dropdown with hover animation effect. <br> Based on Bootstrap 5 CSS framework.  </h6>
-				<p>For this demo page you should connect to the internet to receive files from CDN  like Bootstrap5 CSS, Bootstrap5 JS</p>	
-			</div>
-			<div class="col">
-				<h6>Demo for Navbar dropdown with hover animation effect. <br> Based on Bootstrap 5 CSS framework.  </h6>
-				<p>For this demo page you should connect to the internet to receive files from CDN  like Bootstrap5 CSS, Bootstrap5 JS</p>	
-			</div>
+ <section id="CarouselCtrl" >
+	<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+		  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
 		</div>
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+			<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#454"/></svg>
+			<!-- <img src="https://github.com/mdo.png" class="col" alt="mdo" width="32px" height="32px"> -->
+			<div class="container py-5">
+				<div class="col carousel-caption text-start">
+					<img src="img/client/285x437 nalamudan.png" alt="mdo">					
+				</div>
+				<div class="col carousel-caption text-center">
+					<img src="img/client/Bible Uncle Poster Website.png" alt="mdo">					
+				</div>
+				<div class="col carousel-caption text-end">
+					<img src="img/client/Website Poster template KKA.png" alt="mdo">					
+				</div> 
+			</div>
+		  </div>
+		  <div class="carousel-item">
+			<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
 	
-	</div>
-</section>
+			<div class="container">
+				<div class="col carousel-caption text-start">
+					<img src="img/client/285x437 nalamudan.png" alt="mdo">					
+				</div>
+				<div class="col carousel-caption text-center">
+					<img src="img/client/Bible Uncle Poster Website.png" alt="mdo">					
+				</div>
+				<div class="col carousel-caption text-end">
+					<img src="img/client/Website Poster template KKA.png" alt="mdo">					
+				</div> 
+			</div>
+		  </div>
+		  <div class="carousel-item">
+			<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+	
+			<div class="container">
+				<div class="col carousel-caption text-start">
+					<img src="img/client/285x437 nalamudan.png" alt="mdo">					
+				</div>
+				<div class="col carousel-caption text-center">
+					<img src="img/client/Bible Uncle Poster Website.png" alt="mdo">					
+				</div>
+				<div class="col carousel-caption text-end">
+					<img src="img/client/Website Poster template KKA.png" alt="mdo">					
+				</div> 
+			</div>
+		  </div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Next</span>
+		</button>
+	  </div>
+ </section>
  
  
 </div><!-- container //  -->
 
 </body>
 </html>
+
+ 
